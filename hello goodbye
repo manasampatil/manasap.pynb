@@ -1,0 +1,5 @@
+number=float(input("enter a number:"))
+if (number%2==0 and number%3==0):
+  print("number is divisible by both 2 and 3:")
+else:
+  print("number is not divisible 2 and 3:")
