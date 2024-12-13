@@ -1,0 +1,9 @@
+#return statement
+def square(num):
+  return num*num
+
+result=square(5)
+print("square is:",result)
+
+result=square(7)
+print("square is:",result)
