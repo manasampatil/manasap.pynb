@@ -1,0 +1,6 @@
+#remove
+a.remove(6)
+a
+
+#pop
+a.pop(6)
