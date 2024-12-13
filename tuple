@@ -1,0 +1,6 @@
+#creating atuple
+x=(10,20,30)
+x
+
+#accessing items in a tuple
+print(x[0])
