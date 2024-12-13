@@ -1,0 +1,28 @@
+#creating a set
+numbers={1,2,3,4,5}
+
+**SET OPERATIONS**
+#adding items
+numbers.add(6)
+numbers
+
+#removing items
+numbers.remove(3)
+numbers
+
+
+#union
+a={1,2,3,4,5,6}
+b={9,7,6,5,4,3}
+a|b
+
+#intrsection
+a={1,2,3,4,5}
+b={9,7,6,5,4}
+a & b
+
+#difference
+a={1,2,3,4,5}
+b={8,7,5,7,8}
+a - b
+
