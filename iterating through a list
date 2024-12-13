@@ -1,0 +1,4 @@
+for num in a:
+  print(num) 
+
+
