@@ -1,0 +1,5 @@
+#append
+a.append(6)
+a
+
+
