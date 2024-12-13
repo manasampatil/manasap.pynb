@@ -1,0 +1,6 @@
+variable length argument
+#**keywor#d argument
+def describe_person(**numbers):
+  for key, value in numbers.items():
+    print(f"{key}:{value}")
+describe_person(name="rajesh", age=5, city="New york")
