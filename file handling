@@ -1,0 +1,27 @@
+#1.opening a file
+file=open("/content/manasa patil.txt","r")
+
+#reading  a file
+file=open("/content/manasa patil.txt","r")
+content=file.read()
+print(content)
+file.close
+
+#3.writing a file
+file=open("/content/manasa patil.txt","w")
+file.write("Hello,world!\n")
+file.close()
+
+#appending to a file
+file=open("/content/manasa patil.txt","a")
+file.write("This is an appended line.\n")
+file.close()
+
+#using with statement
+with open("/content/manasa patil.txt","r")as file:
+  content=file.read()
+  print(content)
+
+#file handling mode
+with open("/content/dog.jpg","rb")as file:
+   data=file.read()
