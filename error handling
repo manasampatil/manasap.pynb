@@ -1,0 +1,27 @@
+#try except block
+try:
+  num=int(input("enter a number:"))
+  print(10/num)
+except ZeroDivisionError:
+  print("you cannot divide by zero.")
+except ValueError:
+  print("Invalid input! Please enter a number")
+
+#finally block
+try:
+  file=open("/content/manasa patil.txt","r")
+except FileNotFoundError:
+  print("File not found.")
+finally:
+  print("Execution complete.")
+
+#raising exceptions
+def check_age(age):
+  if age<18:
+    raise ValueError("Age must be 18 0r older.")
+  return True
+
+try:
+  check_age(16)
+except ValueError as e:
+  print(e)
