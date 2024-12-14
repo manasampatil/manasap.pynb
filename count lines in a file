@@ -1,0 +1,6 @@
+file=open("/content/manasa patil.txt","r")
+count_lines=0
+for line in file:
+  count_lines+=1
+print("number of lines:",count_lines)
+file.close()
