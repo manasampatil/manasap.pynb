@@ -1,0 +1,9 @@
+try:
+  num1=int(input("enter numerator:"))
+  num2=int(input("enter denomenator:"))
+  result=num1/num2
+  print("Result:",result)
+except ZeroDivisorError:
+  print("cannot divide by zero.")
+except ValueError:
+  print("Inavalid input! Enter numeric values.")
